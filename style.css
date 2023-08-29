@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:100%;
+	margin:0 auto;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.col6{
+	width:50%;
+	padding:0 10px;
+}
+
+.col12{
+	width:100%;
+	padding:0 10px;
+}
+
+body{
+	background-color:black;
+	color:#fff;
+	font-family: "opensans", sans-serif;
+}
+
+#port_sec{
+	padding:20px;
+}
+
+.heading_sec{
+	position:relative;
+	display:inline-block;
+}
+.heading_sec h1{
+	color:#cda45e;
+	font-size:30px;
+	padding:10px 0;
+}
+.heading_sec h4{
+	font-family: "Poppins", sans-serif;
+	color:grey;
+	letter-spacing:2px;
+}
+
+.heading_sec h4::after{
+	content:"";
+	width:30%;
+	height:1px;
+	background-color:#4a4845;
+	position:absolute;
+	margin-left:10px;
+	top:9px;
+}
+
+.img_sec img{
+	width:70px;
+	border-radius:40px;
+	border:5px solid #484643;
+}
+
+.border_sec{
+	display:flex;8
+	padding:20px 0;
+}
+.price_sec2{
+	padding-left:10px;
+	position:relative;
+	
+}
+.price_sec2 p::before{
+	content:"";
+	width:100%;
+	height:1px;
+	background-color:none;
+	position:absolute;
+	padding:0 190px;
+	top:15px;
+	border-top:3px dotted grey;
+	right:55px;
+}
+
+.price_sec{
+	padding-left:10px;
+	position:relative;
+	 
+}
+.price_sec p::before{
+	content:"";
+	width:90%;
+	height:1px;
+	background-color:none;
+	position:absolute;
+	padding:0 225px;
+	top:15px;
+	border-top:3px dotted grey;
+	right:55px;
+}
+
+.content_sec h3:hover{
+	color:#cda45e;
+	transition:0.5s;
+}
+
+
+
+.subhead_sec{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	padding:25px 0;
+}
+
+.subhead_sec a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.subhead_sec a:hover{
+	color:#cda45e;
+}
+
+.content_sec p{
+	font-size:12px;
+	color:#4a4845;
+	padding:5px;
+    font-weight: 600;
+}
+
+.content_sec h3{
+	font-size: 16px;
+    display: inline-block;
+    background-color: black;
+    padding: 7px;
+    z-index: 999;
+    position: relative;
+}
+.border_flex{
+	display:flex;
+	justify-content:space-between;
+	padding: 25px 0;
+}
+
+.price_sec p{
+	color:#cda45e;
+	margin:2px;
+	padding: 5px 0;
+}
+
+
+.price_sec2 p{
+	color:#cda45e;
+	margin:2px;
+	padding: 5px 0;
+}
